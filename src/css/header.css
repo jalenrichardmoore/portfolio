@@ -1,0 +1,75 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15rem;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.header.not-scrolled {
+    transition: background-color 250ms ease-in-out, box-shadow 250ms ease-in-out;
+    will-change: background-color, box-shadow;
+}
+
+.header.scrolled {
+    background-color: #f0f0f0;
+    box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+.header-title {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+}
+
+.header-title h4 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.header-title p {
+    margin-top: 1.2rem;
+    font-size: 2rem;
+}
+
+.header-links {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    transform: translateY(-50%);
+}
+
+.header-links img {
+    height: 5rem;
+    width: 5rem;
+    padding: 0.5rem;
+    object-fit: contain;
+}
+
+.header-links a img {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.header-links a:hover img {
+    transform: translate(0, -1rem);
+    filter: brightness(0) saturate(100%) invert(13%) sepia(93%) saturate(7480%) hue-rotate(357deg) brightness(90%) contrast(110%);
+}
+
+.header-navigation {
+    display: flex;
+    margin-top: -10rem;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header-navigation a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: color 0.3s ease text-decoration 0.3s ease;
+}

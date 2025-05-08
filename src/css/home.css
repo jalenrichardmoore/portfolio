@@ -1,0 +1,55 @@
+.home-profile {
+    position: relative;
+    margin-top: 35rem;
+    margin-left: 4rem;
+}
+
+.home-profile h1, .home-highlights h1 {
+    font-size: 4rem;
+}
+
+.home-profile p {
+    font-size: 1.75rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    line-height: 2.5rem;
+}
+
+.home-profile-contents {
+    display: flex;
+    align-items: center;
+    gap: 7.5rem;
+}
+
+.home-profile-contents img {
+    margin-top: 5rem;
+    margin-left: 2.5vw;
+    height: 80vh;
+    width: 70vh;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease box-shadow 0.3s ease;
+}
+
+.home-highlights {
+    position: relative;
+    margin-left: 4rem;
+}
+
+.home-projects-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.home-highlights-content .action-button button {
+    position: absolute;
+    margin-left: 0;
+}
+
+.home-highlights-content {
+    position: relative;
+    padding-bottom: 20rem;
+}

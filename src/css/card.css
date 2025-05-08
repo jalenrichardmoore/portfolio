@@ -1,0 +1,180 @@
+.card-info {
+    width: 100%;
+    max-width: 25vw;
+    margin: 1rem 0;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-info-title {
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+
+.card-info-body {
+    position: relative;
+    min-height: 45rem;
+    padding: 1rem;
+    font-size: 1.75rem;
+    line-height: 3rem;
+    color: black;
+    background-color: #f0f0f0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.card-experience, .card-education {
+    margin-top: 5rem;
+    margin-bottom: 5;
+    min-height: fit-content;
+    width: 85%;
+    max-width: 95%;
+    background-color: #f0f0f0;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: translateX(0%);
+    transition: all 0.3s ease;
+}
+
+.card-experience:hover, .card-education:hover {
+    transform: translate(10rem);
+}
+  
+.card-experience h3, .card-education h3 {
+    margin: 1rem 1rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.card-experience p, .card-education p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.75rem;
+    line-height: 3rem;
+}
+
+.card-experience li, .card-education li {
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.card-experience-skills button {
+    position: relative;
+    height: 7.5rem;
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #d8d8d8;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease text-decoration 0.3s ease;
+    overflow: hidden;
+}
+
+.card-experience-skills button p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    word-break: break-word;
+}
+
+.link-wrapper {
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 10rem;
+}
+
+.card-project {
+    position: relative;
+    display: flex;
+    height: 20rem;
+    width: 40vw;
+    align-items: center;
+    border: .25rem solid red;
+    border-radius: 0.8rem;
+    background-color: #d8d8d8;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    gap: .5rem;
+    transition: transform 0.3s ease;
+}
+
+.card-project:hover {
+    transform: translate(5rem, -5rem);
+}
+
+.card-project-image {
+    flex: 1;
+    height: 100%;
+    width: 25rem;
+}
+
+.card-project-image img {
+    height: 100%;
+    width: 25rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.card-project-body {
+    flex: 2;
+    height: 100%;
+    width: 50rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+.card-project-body h4 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-project-body p {
+    font-size: 1.25rem;
+}
+
+.card-project-tools {
+    position: absolute;
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.card-project-tools {
+    padding-right: 0.5rem;
+}
+
+.card-project-tools button {
+    position: relative;
+    height: 3.5rem;
+    width: auto;
+    padding: 0rem .5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease text-decoration 0.3s ease;
+    overflow: hidden;
+}

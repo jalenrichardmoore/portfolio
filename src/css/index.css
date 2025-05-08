@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'GatteModern';
+    src: url("../assets/fonts/GatteModernRegular-aY5GJ.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'GatteModern';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to bottom, #c0c0c0, #f5f5f5, #c0c0c0);
+    background-size: 100%, 200%;
+    background-attachment: fixed;
+}
+
+.section-borderline, .project-section-borderline {
+    height: 0.2rem;
+    width: 95vw;
+    margin: 11rem auto;
+    background-color: red;
+}
+
+.project-section-borderline {
+    margin-top: 5rem;
+}
+
+.underline {
+    width: 50vw;
+    height: 0.2rem;
+    margin: 2rem 0;
+    background-color: red;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease text-decoration 0.3s ease;
+}
+
+.action-button button {
+    position: relative;
+    height: 7.5rem;
+    width: 25vw;
+    margin-top: 5rem;
+    margin-left: 2.5vw;
+    margin-bottom: 10rem;
+    font-size: 1.75rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease text-decoration 0.3s ease;
+}
+
+.action-button button:hover, .hero-section-download-button button:hover, .play-game-button button:hover, a:not(.link-wrapper):hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.about-page h1 {
+    font-size: 4rem;
+}
+
+.about-me {
+    position: relative;
+    margin-top: 35rem;
+    margin-left: 4rem;
+}
+
+.about-experience, .about-education {
+    position: relative;
+    margin-top: 15rem;
+    margin-left: 4rem;
+}
+
+.about-me-bio {
+    position: relative;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 10rem;
+}
+
+.about-me-bio p {
+    font-size: 1.75rem;
+}
+
+.about-me-info-cards {
+    position: relative;
+    display: flex;
+    margin-top: 5rem;
+    gap: 10rem;
+}
+
+.resume-button button {
+    position: relative;
+    height: 7.5rem;
+    width: 25vw;
+    margin-top: 5rem;
+    margin-left: 2.5vw;
+    margin-bottom: 10rem;
+    font-size: 1.75rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    transition: color 0.3s ease text-decoration 0.3s ease;
+}
+
+.resume-button button:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
