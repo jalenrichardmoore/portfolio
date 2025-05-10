@@ -10,11 +10,6 @@ import GatherRoundTheCampfire from './pages/Projects/GatherRoundTheCampfire';
 import Stranded from './pages/Projects/Stranded';
 import TheLegendaryPBJ from './pages/Projects/TheLegendaryPBJ';
 import Portfolio from './pages/Projects/Portfolio';
-import WebGLGame from './components/WebGLGame';
-
-import { strandedBuildPaths } from './data/strandedData';
-import { gatherRoundTheCampfireBuildPaths } from './data/gatherRoundTheCampfireData';
-import { theLegendaryPBJBuildPaths } from './data/theLegendaryPB&JData';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -40,21 +35,8 @@ function App() {
         <Route path = '/projects' element = {<Projects />} />
         <Route path = '/projects/escape-protocol' element = {<EscapeProtocol />}/>
         <Route path = '/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
-        <Route path = '/projects/gather-round-the-campfire/game' element = 
-          {
-            <WebGLGame loaderPath = {gatherRoundTheCampfireBuildPaths.loaderPath} dataPath = {gatherRoundTheCampfireBuildPaths.dataPath} frameworkPath = {gatherRoundTheCampfireBuildPaths.frameworkPath} codePath = {gatherRoundTheCampfireBuildPaths.codePath} gameTitle = {'Gather \'Round the Campfire'}/>
-          }/>
         <Route path = '/projects/stranded' element = {<Stranded />}/>
-        <Route path = '/projects/stranded/game' element = 
-          {
-            <WebGLGame loaderPath = {strandedBuildPaths.loaderPath} dataPath = {strandedBuildPaths.dataPath} frameworkPath = {strandedBuildPaths.frameworkPath} codePath = {strandedBuildPaths.codePath} gameTitle = {'Stranded'} />
-          } />
         <Route path = '/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
-        <Route path = '/projects/the-legendary-pb-and-j/game' element = 
-          {
-            <WebGLGame loaderPath = {theLegendaryPBJBuildPaths.loaderPath} dataPath = {theLegendaryPBJBuildPaths.dataPath} frameworkPath = {theLegendaryPBJBuildPaths.frameworkPath} codePath = {theLegendaryPBJBuildPaths.codePath} gameTitle = {'The Legendary PB&J'}/>
-          }
-        />
         <Route path = '/projects/portfolio' element = {<Portfolio />} />
       </Routes>  
     </div>

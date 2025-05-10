@@ -4,7 +4,6 @@ import Header from '../../components/Header';
 import HeroSection from '../../components/Project Sections/HeroSection';
 import OverviewSection from '../../components/Project Sections/OverviewSection';
 import FeaturesSection from '../../components/Project Sections/FeaturesSection';
-import PlaySection from '../../components/Project Sections/PlaySection';
 import GallerySection from '../../components/Project Sections/GallerySection';
 import DeveloperSection from '../../components/Project Sections/DeveloperSection';
 import LinkSection from '../../components/Project Sections/LinksSection';
@@ -24,8 +23,6 @@ function GatherRoundTheCampfire() {
             <OverviewSection text = {overviewSection.text} />
             <div className = 'project-section-borderline'/>
             <FeaturesSection features = {featuresSection} />
-            <div className = 'project-section-borderline'/>
-            <PlaySection gameUrl = '/projects/gather-round-the-campfire/game'/>
             <div className = 'project-section-borderline'/>
             <GallerySection images = {gallery} />
             <div className = 'project-section-borderline'/>

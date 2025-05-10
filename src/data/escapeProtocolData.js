@@ -84,11 +84,11 @@ export const developerNote = {
 // Project Links
 export const links = [
     {
-        text: 'View Game Scripts',
+        text: 'View Scripts on Github',
         link: 'https://github.com/jalenrichardmoore/escape-protocol-scripts'
     },
     {
-        text: 'View Itch Page',
+        text: 'View Game on Itch',
         link: 'https://jalen-moore.itch.io/escape-protocol'
     }
 ]

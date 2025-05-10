@@ -15,16 +15,6 @@ export const heroSection = {
     title: 'Gather \'Round the Campfire',
     tagline: 'Search the forest. Observe the flames. Save the Bond.',
     image: gatherRoundTheCampfire_01,
-    builds: [
-        {
-            name: 'Windows Build',
-            path: 'builds/Gather \'Round the Campfire/Gather \'Round the Campfire - Windows Build.zip'
-        },
-        {
-            name: 'Mac Build',
-            path: 'builds/Gather \'Round the Campfire/Gather \'Round the Campfire - Mac Build.zip'
-        }
-    ]
 }
 
 // Project Page Overview Section
@@ -86,14 +76,6 @@ export const featuresSection = [
     }
 ]
 
-// Project Page WebGL Build paths
-export const gatherRoundTheCampfireBuildPaths = {
-    loaderPath: '/builds/Gather \'Round the Campfire/Gather \'Round the Campfire - WebGL Build/Build/Gather \'Round the Campfire - WebGL Build.loader.js',
-    dataPath: '/builds/Gather \'Round the Campfire/Gather \'Round the Campfire - WebGL Build/Build/Gather \'Round the Campfire - WebGL Build.data.unityweb',
-    frameworkPath: '/builds/Gather \'Round the Campfire/Gather \'Round the Campfire - WebGL Build/Build/Gather \'Round the Campfire - WebGL Build.framework.js.unityweb',
-    codePath: '/builds/Gather \'Round the Campfire/Gather \'Round the Campfire - WebGL Build/Build/Gather \'Round the Campfire - WebGL Build.wasm.unityweb'
-}
-
 // Project Page Gallery Images
 export const gallery = [gatherRoundTheCampfire_01, gatherRoundTheCampfire_02, gatherRoundTheCampfire_03, gatherRoundTheCampfire_04, gatherRoundTheCampfire_05, gatherRoundTheCampfire_06, gatherRoundTheCampfire_07, gatherRoundTheCampfire_08, gatherRoundTheCampfire_09, gatherRoundTheCampfire_10];
 
@@ -119,11 +101,11 @@ export const developerNote = {
 // Project Links
 export const links = [
     {
-        text: 'View Game Scripts',
+        text: 'View Scripts on Github',
         link: 'https://github.com/jalenrichardmoore/gather-round-the-campfire-scripts'
     },
     {
-        text: 'View Itch Page',
+        text: 'Play Game on Itch',
         link: 'https://jalen-moore.itch.io/gather-round-the-campfire'
     }
 ]

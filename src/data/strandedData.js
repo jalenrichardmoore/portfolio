@@ -63,14 +63,6 @@ export const featuresSection = [
     }    
 ]
 
-// Project Page WebGL Build paths
-export const strandedBuildPaths = {
-    loaderPath: '/builds/Stranded/Stranded - WebGL Build/Build/Stranded (WebGL).loader.js',
-    dataPath: '/builds/Stranded/Stranded - WebGL Build/Build/Stranded (WebGL).data.unityweb',
-    frameworkPath: '/builds/Stranded/Stranded - WebGL Build/Build/Stranded (WebGL).framework.js.unityweb',
-    codePath: '/builds/Stranded/Stranded - WebGL Build/Build/Stranded (WebGL).wasm.unityweb'
-}
-
 // Project Page Gallery Images
 export const gallery = [stranded_01, stranded_02, stranded_03, stranded_04, stranded_05, stranded_06, stranded_07];
 
@@ -93,11 +85,11 @@ export const developerNote = {
 // Project Links
 export const links = [
     {
-        text: 'View Game Scripts',
+        text: 'View Scripts on Github',
         link: 'https://github.com/jalenrichardmoore/stranded-scripts'
     },
     {
-        text: 'View Itch Page',
+        text: 'Play Game on Itch',
         link: 'https://jalen-moore.itch.io/stranded'
     }
 ]

@@ -57,7 +57,7 @@ export const developerNote = {
 // Project Links
 export const links = [
     {
-        text: 'View Scripts',
+        text: 'View Scripts on Github',
         link: 'https://github.com/jalenrichardmoore/portfolio'
     }
 ]

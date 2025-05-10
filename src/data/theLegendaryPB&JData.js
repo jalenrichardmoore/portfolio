@@ -82,14 +82,6 @@ export const featuresSection = [
     }    
 ]
 
-// Project Page WebGL Build paths
-export const theLegendaryPBJBuildPaths = {
-    loaderPath: '/builds/The Legendary PB&J/The Legendary PB&J - WebGL Build/Build/The Legendary PB&J - WebGL Build.loader.js',
-    dataPath: '/builds/The Legendary PB&J/The Legendary PB&J - WebGL Build/Build/The Legendary PB&J - WebGL Build.data.unityweb',
-    frameworkPath: '/builds/The Legendary PB&J/The Legendary PB&J - WebGL Build/Build/The Legendary PB&J - WebGL Build.framework.js.unityweb',
-    codePath: '/builds/The Legendary PB&J/The Legendary PB&J - WebGL Build/Build/The Legendary PB&J - WebGL Build.wasm.unityweb'
-}
-
 // Project Page Gallery Images
 export const gallery = [theLegendaryPBJ_01, theLegendaryPBJ_02, theLegendaryPBJ_03, theLegendaryPBJ_04, theLegendaryPBJ_05, theLegendaryPBJ_06, theLegendaryPBJ_07];
 
@@ -109,11 +101,11 @@ export const developerNote = {
 // Project Links
 export const links = [
     {
-        text: 'View Game Scripts',
+        text: 'View Scripts on Github',
         link: 'https://github.com/jalenrichardmoore/the-legendary-pb-j-scripts'
     },
     {
-        text: 'View Itch Page',
+        text: 'play Game on Itch',
         link: 'https://jalen-moore.itch.io/the-legendary-pb-and-j'
     }
 ]
