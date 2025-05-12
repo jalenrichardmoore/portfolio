@@ -6,6 +6,7 @@ import theLegendaryPBJ_04 from '../assets/images/The Legendary PB&J/Den.png';
 import theLegendaryPBJ_05 from '../assets/images/The Legendary PB&J/Examining Cup.png';
 import theLegendaryPBJ_06 from '../assets/images/The Legendary PB&J/Incomplete Inventory.png';
 import theLegendaryPBJ_07 from '../assets/images/The Legendary PB&J/Victory Screen.png';
+import theLegendaryPBJ_08 from '../assets/images/The Legendary PB&J/Title Screen.png';
 
 
 // Project Page Hero Section
@@ -83,7 +84,7 @@ export const featuresSection = [
 ]
 
 // Project Page Gallery Images
-export const gallery = [theLegendaryPBJ_01, theLegendaryPBJ_02, theLegendaryPBJ_03, theLegendaryPBJ_04, theLegendaryPBJ_05, theLegendaryPBJ_06, theLegendaryPBJ_07];
+export const gallery = [theLegendaryPBJ_01, theLegendaryPBJ_02, theLegendaryPBJ_03, theLegendaryPBJ_04, theLegendaryPBJ_05, theLegendaryPBJ_06, theLegendaryPBJ_07, theLegendaryPBJ_08];
 
 // Project Page Developer's Note
 export const developerNote = {
@@ -105,7 +106,7 @@ export const links = [
         link: 'https://github.com/jalenrichardmoore/the-legendary-pb-j-scripts'
     },
     {
-        text: 'play Game on Itch',
+        text: 'Play Game on Itch',
         link: 'https://jalen-moore.itch.io/the-legendary-pb-and-j'
     }
 ]

@@ -7,8 +7,9 @@ import gatherRoundTheCampfire_05 from '../assets/images/Gather \'Round the Campf
 import gatherRoundTheCampfire_06 from '../assets/images/Gather \'Round the Campfire/Red Maze Treasure.png';
 import gatherRoundTheCampfire_07 from '../assets/images/Gather \'Round the Campfire/The Cabin.png';
 import gatherRoundTheCampfire_08 from '../assets/images/Gather \'Round the Campfire/The Orange Maze.png';
-import gatherRoundTheCampfire_09 from '../assets/images/Gather \'Round the Campfire/Yellow Avatar.png';
-import gatherRoundTheCampfire_10 from '../assets/images/Gather \'Round the Campfire/Yellow Maze Objective.png';
+import gatherRoundTheCampfire_09 from '../assets/images/Gather \'Round the Campfire/Title Screen.png';
+import gatherRoundTheCampfire_10 from '../assets/images/Gather \'Round the Campfire/Yellow Avatar.png';
+import gatherRoundTheCampfire_11 from '../assets/images/Gather \'Round the Campfire/Yellow Maze Objective.png';
 
 // Project Page Hero Section
 export const heroSection = {
@@ -77,7 +78,7 @@ export const featuresSection = [
 ]
 
 // Project Page Gallery Images
-export const gallery = [gatherRoundTheCampfire_01, gatherRoundTheCampfire_02, gatherRoundTheCampfire_03, gatherRoundTheCampfire_04, gatherRoundTheCampfire_05, gatherRoundTheCampfire_06, gatherRoundTheCampfire_07, gatherRoundTheCampfire_08, gatherRoundTheCampfire_09, gatherRoundTheCampfire_10];
+export const gallery = [gatherRoundTheCampfire_01, gatherRoundTheCampfire_02, gatherRoundTheCampfire_03, gatherRoundTheCampfire_04, gatherRoundTheCampfire_05, gatherRoundTheCampfire_06, gatherRoundTheCampfire_07, gatherRoundTheCampfire_08, gatherRoundTheCampfire_09, gatherRoundTheCampfire_10, gatherRoundTheCampfire_11];
 
 // Project Page Developer's Note
 export const developerNote = {

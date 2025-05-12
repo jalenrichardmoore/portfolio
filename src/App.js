@@ -10,6 +10,7 @@ import GatherRoundTheCampfire from './pages/Projects/GatherRoundTheCampfire';
 import Stranded from './pages/Projects/Stranded';
 import TheLegendaryPBJ from './pages/Projects/TheLegendaryPBJ';
 import Portfolio from './pages/Projects/Portfolio';
+import SentimentAnalysis from './pages/Projects/SentimentAnalysis';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -38,6 +39,7 @@ function App() {
         <Route path = '/projects/stranded' element = {<Stranded />}/>
         <Route path = '/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
         <Route path = '/projects/portfolio' element = {<Portfolio />} />
+        <Route path = '/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
       </Routes>  
     </div>
       

@@ -33,8 +33,9 @@ export const featuresSection = [
                      'which is available to be downloaded on this page.'
     },
     {
-        feature: 'Projects Page',
-        description: 'The \'Projects Page\' is divided into three categories: \'Game Development,\' \'Software Development,\' and \'Narrative Design.\''
+        feature: 'Itch.io Integration',
+        description: 'All game project pages include links to their respective Itch.io listings, where all available builds can be found. ' +
+                     'For some projects, downloadable builds are also available directly through this portfolio.'
     },
     {
         feature: 'GitHub Integration',

@@ -5,6 +5,7 @@ import escapeProtocol_03 from "../assets/images/Escape Protocol/Chasing Robber.p
 import escapeProtocol_04 from "../assets/images/Escape Protocol/Downtown Level.png";
 import escapeProtocol_05 from "../assets/images/Escape Protocol/Robber.png";
 import escapeProtocol_06 from "../assets/images/Escape Protocol/Selecting Cop.png";
+import escapeProtocol_07 from "../assets/images/Escape Protocol/Title Screen.png";
 
 // Project Page Hero Section
 export const heroSection = {
@@ -63,7 +64,7 @@ export const featuresSection = [
 ]
 
 // Project Page Gallery Images
-export const gallery = [escapeProtocol_01, escapeProtocol_02, escapeProtocol_03, escapeProtocol_04, escapeProtocol_05, escapeProtocol_06]
+export const gallery = [escapeProtocol_01, escapeProtocol_02, escapeProtocol_03, escapeProtocol_04, escapeProtocol_05, escapeProtocol_06, escapeProtocol_07]
 
 // Project Page Developer's Note
 export const developerNote = {

@@ -6,6 +6,7 @@ import theLegendaryPBJ from '../assets/images/The Legendary PB&J/Kitchen.png';
 
 // Software Development Image Files
 import portfolio from '../assets/icons/portfolio.jpg';
+import sentimentAnalysis from '../assets/images/Movie Review Sentiment Analysis/Positive Analysis.png';
 
 // Game Development Project Cards
 export const gameDevelopmentCards = [
@@ -52,5 +53,13 @@ export const softwareDevelopmentCards = [
         image: portfolio,
         altText: 'Portfolio',
         tools: ['React', 'HTML', 'CSS']
+    },
+    {
+        linkpage: '/projects/movie-review-sentiment-analysis',
+        title: 'Movie Review Sentiment Analysis',
+        description: 'A Streamlit application that analyzes if a given movie review is either positive or negative',
+        image: sentimentAnalysis,
+        altText: 'Movie Review Sentiment Analysis',
+        tools: ['Python', 'Streamlit', 'Machine Learning']
     }
 ]

@@ -6,6 +6,7 @@ import stranded_04 from '../assets/images/Stranded/Game Over Screen.png';
 import stranded_05 from '../assets/images/Stranded/Jelly Monster.png';
 import stranded_06 from '../assets/images/Stranded/Stranded Level.png';
 import stranded_07 from '../assets/images/Stranded/Victory Screen.png';
+import stranded_08 from '../assets/images/Stranded/Title Screen.png';
 
 // Project Page Hero Section
 export const heroSection = {
@@ -64,7 +65,7 @@ export const featuresSection = [
 ]
 
 // Project Page Gallery Images
-export const gallery = [stranded_01, stranded_02, stranded_03, stranded_04, stranded_05, stranded_06, stranded_07];
+export const gallery = [stranded_01, stranded_02, stranded_03, stranded_04, stranded_05, stranded_06, stranded_07, stranded_08];
 
 // Project Page Developer's Note
 export const developerNote = {

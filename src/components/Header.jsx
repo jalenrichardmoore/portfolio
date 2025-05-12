@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { linkedInIcon, githubIcon, itchIcon, gmailIcon } from '../data/headerData';
 
+import { linkedInIcon, githubIcon, itchIcon, gmailIcon } from '../data/headerData';
 
 function Title() {
     return (
