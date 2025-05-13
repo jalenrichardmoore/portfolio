@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
 
 import { linkedInIcon, githubIcon, itchIcon, gmailIcon } from '../data/headerData';
 
@@ -32,7 +31,49 @@ function SocialLinks() {
     );
 }
 
+function ContactInfo({onClose}) {
+    const modalRef = useRef();
+
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
+        return () => {
+            document.body.style.overflow = '';
+        }
+    })
+
+    useEffect(() => {
+        const handleOutsideClick = (e) => {
+            if (modalRef.current && !modalRef.current.contains(e.target)) {
+                onClose();
+            }
+        };
+        document.addEventListener('mousedown', handleOutsideClick);
+        return () => document.removeEventListener('mousedown', handleOutsideClick);
+    }, [onClose]);
+
+    return (
+        <div className = 'contact-overlay'>
+            <div className = 'contact-content' ref = {modalRef}>
+                <h6>Phone Number</h6>
+                <p>985-707-7750</p>
+                <h6>Email Address</h6>
+                <p>jalenrichardmoore@gmail.com</p>
+            </div>
+        </div>
+    );
+}
+
 function Navigation () {
+    const [selectedContact, setSelectedContact] = useState(false);
+
+    const openModal = () => {
+        setSelectedContact(true);
+    }
+
+    const closeModal = () => {
+        setSelectedContact(false);
+    }
+
     return (
         <div>
             <div className = 'section-borderline' />
@@ -40,7 +81,10 @@ function Navigation () {
                 <Link to = '/'>Home</Link>
                 <Link to = '/about'>About</Link>
                 <Link to = '/projects'>Projects</Link>
-                <Link>Contact</Link>
+                <Link onClick = {() => openModal()}>Contact</Link>
+                {
+                    selectedContact && (<ContactInfo onClose = {closeModal}/>)
+                }
             </nav>
         </div>
     );

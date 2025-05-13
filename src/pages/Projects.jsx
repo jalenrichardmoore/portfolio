@@ -35,10 +35,6 @@ function Projects() {
                     }
                 </div>
             </div>
-            <div className = 'projects-section-narrative'>
-                <h1>Narrative Design Projects</h1>
-                <div className = 'underline' />
-            </div>
         </div>
     );
 }

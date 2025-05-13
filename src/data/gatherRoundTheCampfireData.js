@@ -106,7 +106,7 @@ export const links = [
         link: 'https://github.com/jalenrichardmoore/gather-round-the-campfire-scripts'
     },
     {
-        text: 'Play Game on Itch',
+        text: 'View Game on Itch',
         link: 'https://jalen-moore.itch.io/gather-round-the-campfire'
     }
 ]
