@@ -11,7 +11,7 @@ import sentimentAnalysis from '../assets/images/Movie Review Sentiment Analysis/
 // Game Development Project Cards
 export const gameDevelopmentCards = [
     {
-        linkpage: 'https://jalenrichardmoore.github.io/portfolio/projects/escape-protocol',
+        linkpage: '/projects/escape-protocol',
         title: 'Escape Protocol',
         description: 'A Unity-based game that integrates an XGBoost algorithm to dynamically modify game difficulty by changing AI-trained enemy models',
         image: escapeProtocol,
@@ -19,7 +19,7 @@ export const gameDevelopmentCards = [
         tools: ['Unity', 'ML-Agents', 'C#', 'Python', 'Machine Learning']
     },
     {
-        linkpage: 'https://jalenrichardmoore.github.io/portfolio/projects/gather-round-the-campfire',
+        linkpage: '/projects/gather-round-the-campfire',
         title: 'Gather \'Round the Campfire',
         description: 'A narrative-driven adventure game made in the Unity engine centered around five hikers trapped in a forest',
         image: gatherRoundTheCampfire,
@@ -27,7 +27,7 @@ export const gameDevelopmentCards = [
         tools: ['Unity', 'C#']
     },
     {
-        linkpage: 'https://jalenrichardmoore.github.io/portfolio/projects/stranded',
+        linkpage: '/projects/stranded',
         title: 'Stranded',
         description: 'A first-person survival shooter where the  goal is to defend watchtowers from sea creatures',
         image: stranded,
@@ -35,7 +35,7 @@ export const gameDevelopmentCards = [
         tools: ['Unity', 'C#']
     },
     {
-        linkpage: 'https://jalenrichardmoore.github.io/portfolio/projects/the-legendary-pb-and-j',
+        linkpage: '/projects/the-legendary-pb-and-j',
         title: 'The Legendary PB&J',
         description: 'A text-based adventure game through  a crowded mansion where the player must  collect sandwich ingredients',
         image: theLegendaryPBJ,
@@ -47,7 +47,7 @@ export const gameDevelopmentCards = [
 // Software Development Project Cards
 export const softwareDevelopmentCards = [
     {
-        linkpage: 'https://jalenrichardmoore.github.io/portfolio/projects/portfolio',
+        linkpage: '/projects/portfolio',
         title: 'Personal Portfolio',
         description: 'A website containing information about my professional experience, skills, and projects I\'ve created',
         image: portfolio,
@@ -55,7 +55,7 @@ export const softwareDevelopmentCards = [
         tools: ['React', 'HTML', 'CSS']
     },
     {
-        linkpage: 'https://jalenrichardmoore.github.io/portfolio/projects/movie-review-sentiment-analysis',
+        linkpage: '/projects/movie-review-sentiment-analysis',
         title: 'Movie Review Sentiment Analysis',
         description: 'A Streamlit application that analyzes if a given movie review is either positive or negative',
         image: sentimentAnalysis,
