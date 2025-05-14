@@ -29,20 +29,18 @@ function ScrollToTop() {
 function App() {
   return (    
     <div>
-        <Router>
-          <ScrollToTop />
-          <Routes>
-            <Route path = '/' element = {<Home />} />
-            <Route path = '/about' element = {<About />} />
-            <Route path = '/projects' element = {<Projects />} />
-            <Route path = '/projects/escape-protocol' element = {<EscapeProtocol />}/>
-            <Route path = '/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
-            <Route path = '/projects/stranded' element = {<Stranded />}/>
-            <Route path = '/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
-            <Route path = '/projects/portfolio' element = {<Portfolio />} />
-            <Route path = '/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
-          </Routes>
-        </Router> 
+        <ScrollToTop />
+        <Routes>
+          <Route path = '/' element = {<Home />} />
+          <Route path = '/about' element = {<About />} />
+          <Route path = '/projects' element = {<Projects />} />
+          <Route path = '/projects/escape-protocol' element = {<EscapeProtocol />}/>
+          <Route path = '/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
+          <Route path = '/projects/stranded' element = {<Stranded />}/>
+          <Route path = '/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
+          <Route path = '/projects/portfolio' element = {<Portfolio />} />
+          <Route path = '/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
+        </Routes>
     </div>      
   );
 }
