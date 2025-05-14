@@ -1,6 +1,6 @@
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import {Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -29,20 +29,21 @@ function ScrollToTop() {
 function App() {
   return (    
     <div>
-      <ScrollToTop />
-      <Routes>
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/' element = {<Home />} />
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/about' element = {<About />} />
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects' element = {<Projects />} />
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/escape-protocol' element = {<EscapeProtocol />}/>
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/stranded' element = {<Stranded />}/>
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/portfolio' element = {<Portfolio />} />
-        <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
-      </Routes>  
-    </div>
-      
+        <Router>
+          <ScrollToTop />
+          <Routes>
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/' element = {<Home />} />
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/about' element = {<About />} />
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects' element = {<Projects />} />
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/escape-protocol' element = {<EscapeProtocol />}/>
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/stranded' element = {<Stranded />}/>
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/portfolio' element = {<Portfolio />} />
+            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
+          </Routes>
+        </Router> 
+    </div>      
   );
 }
 
