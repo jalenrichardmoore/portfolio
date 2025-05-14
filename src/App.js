@@ -32,15 +32,15 @@ function App() {
         <Router>
           <ScrollToTop />
           <Routes>
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/' element = {<Home />} />
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/about' element = {<About />} />
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects' element = {<Projects />} />
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/escape-protocol' element = {<EscapeProtocol />}/>
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/stranded' element = {<Stranded />}/>
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/portfolio' element = {<Portfolio />} />
-            <Route path = 'https://jalenrichardmoore.github.io/portfolio/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
+            <Route path = '/' element = {<Home />} />
+            <Route path = '/about' element = {<About />} />
+            <Route path = '/projects' element = {<Projects />} />
+            <Route path = '/projects/escape-protocol' element = {<EscapeProtocol />}/>
+            <Route path = '/projects/gather-round-the-campfire' element = {<GatherRoundTheCampfire />}/>
+            <Route path = '/projects/stranded' element = {<Stranded />}/>
+            <Route path = '/projects/the-legendary-pb-and-j' element = {<TheLegendaryPBJ />} />
+            <Route path = '/projects/portfolio' element = {<Portfolio />} />
+            <Route path = '/projects/movie-review-sentiment-analysis' element = {<SentimentAnalysis />} />
           </Routes>
         </Router> 
     </div>      
