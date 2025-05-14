@@ -78,9 +78,9 @@ function Navigation () {
         <div>
             <div className = 'section-borderline' />
             <nav className = 'header-navigation'>
-                <Link to = '/'>Home</Link>
-                <Link to = '/about'>About</Link>
-                <Link to = '/projects'>Projects</Link>
+                <Link to = 'https://jalenrichardmoore.github.io/portfolio/'>Home</Link>
+                <Link to = 'https://jalenrichardmoore.github.io/portfolio/about'>About</Link>
+                <Link to = 'https://jalenrichardmoore.github.io/portfolio/projects'>Projects</Link>
                 <Link onClick = {() => openModal()}>Contact</Link>
                 {
                     selectedContact && (<ContactInfo onClose = {closeModal}/>)
