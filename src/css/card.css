@@ -18,7 +18,7 @@
 
 .card-info-body {
     position: relative;
-    min-height: 45rem;
+    height: 50rem;
     padding: 1rem;
     font-size: 1.75rem;
     line-height: 3rem;
