@@ -36,7 +36,7 @@ export const biographyCards = [
         title: 'Narrative Design',
         body: (
             <p>
-                Narrative design is something that I am relatively new to but actively learning about. When writing stories for my games, my main priority 
+                Narrative design is something that I am relatively new to but am actively learning about. When writing stories for my games, my main priority 
                 is preserving player agency, making sure the player is the one shaping the narrative through their actions.
                 I aim to create stories with meaningful, lasting consequences that reflect the player's decisions. 
                 In <Link to = '/projects/gather-round-the-campfire'><em>Gather 'Round the Campfire</em></Link>, my first narrative-driven project,
