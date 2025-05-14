@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c74f11e3.css",
-    "main.js": "/portfolio/static/js/main.6eece7aa.js",
+    "main.js": "/portfolio/static/js/main.0028618e.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/The Forest.png": "/portfolio/static/media/The Forest.c117cbdfa1fd6c54bdd1.png",
     "static/media/Green Avatar Dialogue.png": "/portfolio/static/media/Green Avatar Dialogue.8b1e9b95a082c691d838.png",
@@ -43,11 +43,11 @@
     "static/media/itch.png": "/portfolio/static/media/itch.19097d491b8b8c333d87.png",
     "index.html": "/portfolio/index.html",
     "main.c74f11e3.css.map": "/portfolio/static/css/main.c74f11e3.css.map",
-    "main.6eece7aa.js.map": "/portfolio/static/js/main.6eece7aa.js.map",
+    "main.0028618e.js.map": "/portfolio/static/js/main.0028618e.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c74f11e3.css",
-    "static/js/main.6eece7aa.js"
+    "static/js/main.0028618e.js"
   ]
 }
